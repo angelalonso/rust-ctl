@@ -18,7 +18,6 @@ struct Attribute {
 struct Table {
     object_type: String,
     attributes: Vec<Attribute>,
-    //attributes: Attribute,
 }
 
 fn main() {

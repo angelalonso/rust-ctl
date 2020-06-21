@@ -2,7 +2,10 @@
 
 A flexible api server that defines object structure from a yaml file, and maps it to routes and a MySQL DB.  
 
-# TL;DR: this is a work in progress I just started
+# CURRENT STATUS
+
+This is not yet usable.  
+The API implemented is a generic one, put there to check that it would work.  
 
 ## The objects.yaml file
 

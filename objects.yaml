@@ -2,6 +2,11 @@
 object_type: host
 attributes:
   - title: hostname
-    mysql_scheme: test
+    mysql_scheme: "char(60) DEFAULT ''"
     command: test
-  - title: hostname2
+  - title: ip
+    mysql_scheme: "char(11) DEFAULT 'www.xxx.yyy.zzz'"
+    command: test
+  - title: mac_address
+    mysql_scheme: "char(17) DEFAULT '00:00:00:00:00:00'"
+    command: test

@@ -1,0 +1,7 @@
+---
+object_type: host
+attributes:
+  - title: hostname
+    mysql_scheme: test
+    command: test
+  - title: hostname2
